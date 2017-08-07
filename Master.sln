@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninja.Abstractions", "src\Ninja.Abstractions\Ninja.Abstractions.csproj", "{53DFB671-AC75-4CD6-87A3-E420CBBCE5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninja.Domain", "src\Ninja.Domain\Ninja.Domain.csproj", "{EF1D84FC-D731-4D3F-B4CA-E944B550D11A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninja.Host", "src\Ninja.Host\Ninja.Host.csproj", "{DEF183F2-3EF5-467B-9158-BFE5B6A71D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DFB671-AC75-4CD6-87A3-E420CBBCE5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DFB671-AC75-4CD6-87A3-E420CBBCE5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DFB671-AC75-4CD6-87A3-E420CBBCE5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DFB671-AC75-4CD6-87A3-E420CBBCE5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1D84FC-D731-4D3F-B4CA-E944B550D11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1D84FC-D731-4D3F-B4CA-E944B550D11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1D84FC-D731-4D3F-B4CA-E944B550D11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1D84FC-D731-4D3F-B4CA-E944B550D11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF183F2-3EF5-467B-9158-BFE5B6A71D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF183F2-3EF5-467B-9158-BFE5B6A71D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF183F2-3EF5-467B-9158-BFE5B6A71D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF183F2-3EF5-467B-9158-BFE5B6A71D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
